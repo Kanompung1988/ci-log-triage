@@ -1,0 +1,9 @@
+2026-10-24T00:00:00Z Starting CI build
+2026-10-24T00:00:01Z Installing dependencies
+2026-10-24T00:00:02Z Running typecheck
+src/api/client.ts:42:11 - error TS2345: Argument of type string is not assignable to number.
+2026-10-24T00:00:03Z Running Python tests
+FAILED tests/test_payments.py::test_create_payment - AssertionError: expected 201, got 200
+2026-10-24T00:00:04Z Running Python CLI integration tests
+ModuleNotFoundError: No module named 'payment_client'
+2026-10-24T00:00:05Z CI terminated
